@@ -100,7 +100,7 @@ app.use((req, res, next) => {
 })
 
 app.get("/", (req, res, next) => {
-    res.status(200).send("Explore data on endangered species, their habitats, threats, and conservation efforts.")
+    res.status(200).send("<h2>Explore data on endangered species, their habitats, threats, and conservation efforts.</h2>")
 })
 
 app.get("/species", (req, res, next) => {
